@@ -1,0 +1,66 @@
+.Book-bg-image{
+    background-image: url('../Images/25.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+     /* padding: 0px 0px 120px 580px;   */
+     text-align: center;
+     
+    height: 500px;
+}
+.image-text{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+   
+}
+.book-text{
+    font-size: 30px;
+    font-weight: bold;
+}
+.Links{
+        /* padding: 60px 0px 0px 390px; */
+        align-items: center;
+        gap: 40px;
+        font-size: 13px;
+        text-align: center;
+        margin-top: 30px;
+        justify-content: center;
+}
+.door-to-door{
+    font-size: 30px;
+    letter-spacing: 8px;
+    font-weight: bold;
+   
+}
+@media (max-width:900px){
+   .door-to-door{
+    font-size: 15px;
+    letter-spacing: 5px;
+    font-weight: bold;
+   }
+   .Links{
+    /* padding: 60px 0px 0px 190px; */
+    gap: 40px;
+    font-size: 13px;
+}
+
+.Book-bg-image{
+     /* padding: 0px 0px 0px 30px; */
+     height: 340px; 
+     
+
+    
+}
+.image-text{
+    font-size: 15px;
+ 
+    font-weight: bold;
+
+}
+.book-text{
+    font-size: 20px;
+}
+
+}

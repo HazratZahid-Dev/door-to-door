@@ -1,25 +1,66 @@
-import logo from './logo.svg';
+// import React, { useState } from 'react';
+import Nav from '../src/Compunents/DoorNav';
+import Home from '../src/Pages/Home';
+// import Admission from './Admission';
+// import Founder from './Founder';
+// import Facilities from './Facilities';
+// import Rules from './Rules';
+// import More from './More';
 import './App.css';
+import './index.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Login from '../src/Pages/Login'
+// import Contact from '/';
 
+import Book from './Pages/Book';
+import Location from './Pages/Location';
+import MasterClasses from './Pages/MasterClasses';
+import ThePartyBox from './Pages/ThePartyBox';
+import Contact from './Pages/Contact';
+import DetailsPage from './Compunents/DetailsPage';
+import AddToCart from './Pages/AddToCart';
+import { useState } from 'react';
+
+
+  
 function App() {
+  // const {productItems}=Data;
+  //  const [cartItems,setcartItems]=useState([]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+    
+   
+      <Router>
+        <div>
+          <Nav />
+          <Routes>
+            
+            <Route path='/home' element={<Home  />} />
+     
+            <Route path='/Book' element={<Book/>} />
+        
+            <Route path='/Location' element={<Location/>} />
+        
+            <Route path='/MasterClasses' element={<MasterClasses/>} />
+          
+          <Route path="/ThePartyBox" element={<ThePartyBox/>} />
+           <Route path="/contact" element={<Contact/>} /> 
+           <Route path='/' element={<Login />} /> 
+           <Route path='/Detailpage' element={<DetailsPage/>} /> 
+           <Route path='/AddToCart'  element={<AddToCart/>}  /> 
+          </Routes>
+        </div>
+      </Router>
+     
+      
+      
+ 
+    </>
+
   );
 }
+
 
 export default App;

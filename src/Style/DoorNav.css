@@ -1,0 +1,82 @@
+.door-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    height: 80px;
+    background: rgb(23, 0, 0);
+}
+.Door-Logo{
+    width: 60px;
+    height: 60px;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+    /* font-weight: bold; */
+    padding-left: 520px; 
+    float: right;
+}
+
+.menu {
+    list-style: none;
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.menu li:hover{
+    cursor: pointer;
+    color: goldenrod;
+}
+
+.navbar__icon{
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+    color: white;
+}
+
+
+@media (max-width:800px) {
+    .navbar__icon{
+        display: flex;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        margin-top: 80px;
+        background: rgb(23, 0, 0);
+        height: 80vh;
+        width: 100%;
+        z-index: 999;
+        gap: 50px;
+        padding-top: 20px;
+        text-align: center;
+        transition: .5s ease-in-out;
+        color: white;
+    }
+    .menu.active{
+        position: absolute;
+        left: 0;
+    }
+    .Door-Logo{
+        width: 45px;
+        height: 45px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+   .menu{
+
+  padding-left: 320px; 
+   }
+
+}

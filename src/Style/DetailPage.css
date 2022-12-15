@@ -1,0 +1,11 @@
+/* .detail-page{
+    margin: auto;
+    /* background-color: aqua; 
+} */
+.inner-detail{
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    
+}

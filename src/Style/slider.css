@@ -1,0 +1,36 @@
+.slider {
+    @apply h-[55vh] relative;
+  }
+  .slider img {
+    @apply  w-full;
+  }
+  .slider__arrow span {
+    transition: 0.3s ease-in-out;
+    @apply text-2xl text-sky-700 hover:text-orange-500;
+  }
+  .slider__arrow span:nth-child(1) {
+    @apply absolute top-[50%]  left-2;
+  }
+  .slider__arrow span:nth-child(2) {
+    @apply absolute top-[50%]  right-2;
+  }
+.slider img{
+    height: 80vh;
+    background:cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    
+
+  }
+/* .span{
+    margin: 4rem;
+}  */
+@media (max-width:900px){
+  .slider img{
+    /* height: 340px; */
+
+
+    }
+}
+  

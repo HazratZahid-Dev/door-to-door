@@ -1,0 +1,97 @@
+.contact-bg{
+    background: url('../Images/22.jpg');
+    width: 97%;
+    margin: auto;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    /* opacity: 0.6; */
+    
+    text-align: center;
+}
+.contact-heading{
+    color: white;
+    padding-top: 400px;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-shadow: 3px 1px #ff0000;
+
+}
+.contact-input-main{
+    margin: auto;
+    width: 97%;
+    
+    padding: 30px;
+}
+.contact-input{
+    background: rgb(246, 246, 246);
+    padding: 0px 0px 0px 20px;
+    width: 500px;
+    height: 50px;
+    
+
+}
+.contact-text-area{
+    background: rgb(246, 246, 246);
+    padding: 10px 5px 0px 20px;
+
+}
+.contact-btn{
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    background: rgb(47, 1, 1);
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.contact-map-text{
+    width: 97%;
+    margin: auto;
+    /* margin-top: 10px; */
+    border: none;
+}
+.CONTACT-BTN{
+    border: 1px solid rgb(251, 115, 3);
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px 50px;
+
+}
+.contact-right-side{
+    background: rgb(23, 0, 0);
+    /* padding: 90px 0px 50px 30px; */
+    text-align: center;
+    padding: 40px;
+}
+.map-section{
+    width: 546px;
+    height: 400px;
+
+}
+@media(max-width:900px){
+    .contact-bg{
+        height: 340px;
+
+    }
+    .contact-heading{
+        font-size: 30px;
+        font-weight: bold;
+        justify-content: center;
+        padding-top:290px ;
+    }
+    .contact-input{
+        width: 350px;
+        height: 30px;
+    }
+    .contact-text-area{
+        width: 350px;
+
+    }
+    .map-section{
+        width: 422px;
+        height: 300px;
+        gap: 10px;
+        margin: auto;
+    }
+}

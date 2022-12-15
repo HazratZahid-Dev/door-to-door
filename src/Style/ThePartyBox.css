@@ -1,0 +1,59 @@
+.party-class-bg{
+    background: url('../Images/24.jpg');
+    width: 97%;
+    margin: auto;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+
+}
+.party-heading{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    padding-top:444px ;
+    text-shadow: 3px 1px #ff0000;
+}
+.Changing{
+    font-size: 28px;
+    font-weight: bold;
+}
+.ThePartyBox-para{
+    color: grey;
+    line-height: 30px;
+}
+.poison{
+    background: rgb(23, 0, 0);
+    width: 97%;
+    margin: auto;
+    padding: 40px;
+    height: 300px;
+    
+
+}
+.party-img-text{
+    width: 97%;
+    margin: auto;
+    margin-top: 10px;
+
+}
+.party-right-side{
+    background: rgb(23, 0, 0);
+    /* padding-top: 40px;
+    padding-right: 20px; */
+    padding: 90px 0px 50px 30px;
+}
+@media(max-width:900px){
+    .party-class-bg{
+        height: 340px;
+
+    }
+    .party-heading{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        justify-content: center;
+        padding-top:280px ;
+    }
+}

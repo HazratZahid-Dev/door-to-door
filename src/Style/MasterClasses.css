@@ -1,0 +1,31 @@
+.Master-bg-image{
+    background-image: url('../Images/16.jpg');
+    width: 97%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* margin: auto; */
+     /* padding: 380px 0px 120px 580px;   */
+     text-align: center;
+     text-shadow: 3px 1px #ff0000;
+     
+    height: 500px;
+}
+.master-image-text{
+    padding-top: 430px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+@media(max-width:900px){
+
+    .Master-bg-image{
+        height: 340px;
+        /* padding: 0px 0px 0px 20px;   */
+    }
+    .master-image-text{
+        padding-top: 280px;
+    }
+
+
+}
